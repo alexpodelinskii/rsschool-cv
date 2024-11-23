@@ -1,159 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML, CSS & Git Basics - CV ALex Podelinskii</title>
-    <link rel="stylesheet" href="Style/style.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <article class="mainInfo">
-                <h1>Alexandr Podelinskii</h1>
-                <figure class="main_photo">
-                    <img src="Images/Ava.jpeg" alt="My photo" class="main_photo_ava">
-                </figure>
-            </article>
-        </header>
-        <main>
-            <div class="main_block">
-                <section>
-                    <h2 class="hide">zzz</h2>
-                    <ul class="info">
-                        <li>
-                            <article>
-                                <h2>
-                                    Contact Information
-                                </h2>
-                                <ul class="info_list-disc">
-                                    <li>Phone number: +375336240642</li>
-                                    <li>E-mail: nikitik00787@gmail.com</li>
-                                    <li>
-                                        <address>Addres: Grodno (Belarus)</address>
-                                    </li>
-                                </ul>
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <h2>
-                                    Education:
-                                </h2>
-                                <p>
-                                    Belarusian National Technical University (INTERNATIONAL INSTITUTE OF DISTANCE
-                                    EDUCATION),
-                                    Graduate as an
-                                    Information technology engineer, 2014
-                                </p>
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <h2>
-                                    Summary:
-                                </h2>
-                                <p>
-                                    I want to become a front-end developer. I really like programming, it allows me to
-                                    learn
-                                    something new
-                                    every day. My strengths are curiosity, determination, perseverance.
-                                </p>
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <h2>
-                                    Hard skills
-                                </h2>
-                                <ol>
-                                    <li>Programing language: JavaScript</li>
-                                    <li>Working with:
-                                        <ul class="info_list-disc">
-                                            <li>HTML</li>
-                                            <li>CSS</li>
-                                            <li>React</li>
-                                            <li>Git</li>
-                                        </ul>
-                                    </li>
-                                </ol>
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <h2>
-                                    Soft skills:
-                                </h2>
-                                <ul class="info_list-disc">
-                                    <li>Communicability</li>
-                                    <li>Self-Motivation</li>
-                                    <li>Responsibility</li>
-                                    <li>Teamwork</li>
-                                </ul>
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <h2>
-                                    Language
-                                </h2>
-                                <ul class="info_list-square">
-                                    <li>Russian: native</li>
-                                    <li>English, Poland: reading and translating ability</li>
-                                </ul>
-                            </article>
-                        </li>
-                        <li>
-                            <article>
-                                <h2>
-                                    Code example
-                                </h2>
-                                <h3 class="code_example">
-                                    Codewar cata <a
-                                        href="https://www.codewars.com/kata/5552101f47fc5178b1000050">Playing with
-                                        digits </a>
-                                </h3>
-                                <pre>
-                                    <code>
-                                            function digPow(n, p){
-                                                let arr = String (n).split('');
-                                                arr.forEach(item => +item);
-                                                let res = 0;
-                                                for (let i=0; i &lt; arr.length; i++){ 
-                                                    res +=arr[i]**p;
-                                                    p++;
-                                                    } 
-                                                let a=res/n; if (parseInt(a)==a) {
-                                                    return a; 
-                                                    }
-                                                else return -1; 
-                                            }     
-                                    </code>
-                                </pre>
-                            </article>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </main>
-        <footer>
-            <div> <a href="https://github.com/alexpodelinskii"><svg class="github-logo" viewBox="0 0 16 16"
-                        version="1.1" aria-hidden="true">
-                        <path fill-rule="evenodd"
-                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
-                        </path>
-                    </svg></a>
-            </div>
-            <div>
-                <p>
-                    Create for RSSchool
-                </p>
-                <time datetime="2022-09-08">8th, September, 2022</time>
-            </div>
-            <div> <a href="https://rs.school/js/"><img src="./Images/rs_school_js.svg" alt="My cours"></a>
-            </div>
-        </footer>
-    </div>
-</body>
-</html>
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+   }
+address {
+    font-style: normal;
+}   
+a {
+   text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+header{
+   display: flex;
+   align-items: center;
+}
+p {
+margin: 0;
+}
+section {
+   margin-bottom: 20px;
+   padding: 0;
+}
+h1 {
+   font-size: 36px;
+   text-align: center;
+}
+h2 {
+   margin: 10px auto;
+}
+footer {
+   display: flex;
+   padding: 0 40px;
+   justify-content: space-between;
+}
+footer img {
+   height: 41px;
+}
+.container {
+   max-width: 990px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.main_photo_ava {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+.github-logo {
+    height: 32px;
+    width: 32px;
+}
+.hide {
+    visibility: hidden;
+    font-size: 1px;
+}
+.mainInfo {
+   display: flex;
+   margin: 0 auto;
+   align-items: center;
+}
+.main_photo {
+   display: flex;
+   align-content: center;
+   margin-right: 20px;
+}
+.info_list-disc {
+   list-style-type: disc;
+}
+.info_list-square {
+   list-style-type: square;
+}
