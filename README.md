@@ -18,3 +18,28 @@
      * CSS
      * React
      * Git
+## 8. Soft skills:
+* communicability
+ * Self-Motivation
+ * Responsibility 
+ * Teamwork 
+## 9. Language:
+    Russian: native
+    English, Poland: reading and translating ability
+## 10. Code examples
+Codewar cata [Playing with digits](https://www.codewars.com/kata/5552101f47fc5178b1000050)
+```
+function digPow(n, p){
+  let arr = String (n).split('');
+  arr.forEach(item => +item);
+  let res = 0;
+  for (let i=0; i<arr.length; i++){
+   res += arr[i]**p;
+    p++;
+  }
+  let a = res/n;
+  if (parseInt(a)==a) {
+    return a;
+    } else return -1;
+}   
+```
